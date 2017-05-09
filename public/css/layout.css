@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers|Metal+Mania');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
 
 
 body{
@@ -271,4 +278,6 @@ div.image-float-wrapper {
    text-align: center;
    color: white;
 }
+
+
 

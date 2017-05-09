@@ -131,6 +131,7 @@ function renderImageComponent(image, minHeightCSS) {
 
 Through a combination of what's left in the main.js file and the dbresponse.html file, we can further sort through options the API provides based on code from a wrapper provided by Shutterstock which has been modified to fit this app's needs.
 
+The user is also able to print out their flyers. Using 'display: none' in CSS allows us to essentially hide parts of the page other than the generated flyers in the HTML. 
 
 #NEXT STEPS
 
